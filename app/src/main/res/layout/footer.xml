@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:deepak="http://schemas.android.com/apk/res/android"
+    deepak:layout_height="match_parent"
+    deepak:layout_width="match_parent">
+    <RelativeLayout
+        deepak:layout_width="match_parent"
+        deepak:layout_height="wrap_content"
+        deepak:background="#7575fb"
+        deepak:id="@+id/footer">
+<ImageView
+    deepak:layout_width="wrap_content"
+    deepak:layout_height="80dp"
+    deepak:src="@drawable/user"
+    deepak:id="@+id/imgs"
+    deepak:padding="20dp" />
+        <TextView
+            deepak:layout_width="fill_parent"
+            deepak:layout_height="match_parent"
+            deepak:layout_toRightOf="@+id/imgs"
+            deepak:id="@+id/footertext"
+            deepak:textColor="#fff"
+            deepak:textAllCaps="true"
+            deepak:layout_marginTop="20dp"
+            deepak:textSize="20sp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

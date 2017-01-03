@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    deepak:shape="line"
+    xmlns:deepak="http://schemas.android.com/apk/res/android" >
+    <stroke deepak:color="#fff"
+        deepak:width="2dp"
+        deepak:dashGap="10dp"
+        deepak:dashWidth="10dp">
+    </stroke>
+</shape>

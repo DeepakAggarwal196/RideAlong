@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:deepak="http://schemas.android.com/apk/res/android"
+    deepak:layout_width="match_parent"
+    deepak:layout_height="match_parent"
+    deepak:background="#ffffff"
+    deepak:id="@+id/mainlay">
+    <ScrollView
+        deepak:layout_width="match_parent"
+        deepak:layout_height="match_parent">
+    <RelativeLayout
+        deepak:layout_width="match_parent"
+        deepak:layout_height="match_parent"
+        deepak:layout_below="@+id/lay1"
+        deepak:id="@+id/lay2"
+        deepak:layout_marginLeft="10dp">
+        <TextView
+            deepak:layout_width="match_parent"
+            deepak:layout_height="wrap_content"
+            deepak:text="SIGN UP"
+            deepak:textSize="50sp"
+            deepak:id="@+id/textView" />
+        <EditText
+            deepak:layout_width="match_parent"
+            deepak:layout_height="wrap_content"
+            deepak:layout_below="@+id/textView"
+            deepak:hint="Name"
+            deepak:id="@+id/iname"
+            deepak:layout_alignParentLeft="true"
+            deepak:layout_alignParentStart="true"/>
+        <EditText
+            deepak:layout_width="match_parent"
+            deepak:layout_height="wrap_content"
+            deepak:layout_below="@+id/iname"
+            deepak:inputType="textEmailAddress"
+            deepak:hint="Email ID"
+            deepak:id="@+id/imail"
+            deepak:layout_alignParentLeft="true"
+            deepak:layout_alignParentStart="true"/>
+        <EditText
+            deepak:layout_width="match_parent"
+            deepak:layout_height="wrap_content"
+            deepak:layout_below="@+id/imail"
+            deepak:hint="Contact Number"
+            deepak:id="@+id/inumber"
+            deepak:inputType="phone"
+            deepak:layout_alignParentLeft="true"
+            deepak:layout_alignParentStart="true"/>
+        <EditText
+            deepak:layout_width="match_parent"
+            deepak:layout_height="wrap_content"
+            deepak:layout_below="@+id/inumber"
+            deepak:inputType="textPassword"
+            deepak:hint="Password"
+            deepak:id="@+id/ipassword"
+            deepak:layout_alignParentLeft="true"
+            deepak:layout_alignParentStart="true"/>
+        <EditText
+            deepak:layout_width="match_parent"
+            deepak:layout_height="wrap_content"
+            deepak:layout_below="@+id/ipassword"
+            deepak:inputType="textPassword"
+            deepak:hint="Confirm Password"
+            deepak:id="@+id/iconfirmpassword"
+            deepak:layout_alignParentLeft="true"
+            deepak:layout_alignParentStart="true"/>
+        <Button
+            deepak:layout_width="wrap_content"
+            deepak:layout_height="wrap_content"
+            deepak:layout_below="@+id/iconfirmpassword"
+            deepak:id="@+id/signupbtn"
+            deepak:textSize="20sp"
+            deepak:text="SIGN UP"
+            deepak:paddingLeft="20dp"
+            deepak:paddingRight="20dp"
+            deepak:layout_centerHorizontal="true"
+            deepak:background="#9d0328f5"
+            deepak:textColor="#fff"
+            deepak:layout_marginTop="15dp"
+            />
+        </RelativeLayout>
+    </ScrollView>
+    <!--<RelativeLayout-->
+        <!--style="@style/GenericProgressBackground"-->
+        <!--android:id="@+id/loadingPanel"-->
+        <!--xmlns:android="http://schemas.android.com/apk/res/android" >-->
+        <!--<ProgressBar-->
+            <!--style="@style/GenericProgressIndicator"/>-->
+    <!--</RelativeLayout>-->
+    </RelativeLayout>

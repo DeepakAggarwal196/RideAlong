@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:deepak="http://schemas.android.com/apk/res/android"
+    deepak:layout_width="match_parent"
+    deepak:layout_height="match_parent"
+    deepak:background="#ffffff"
+    deepak:id="@+id/mainlay">
+    <ScrollView
+        deepak:layout_width="match_parent"
+        deepak:layout_height="match_parent">
+    <RelativeLayout
+                deepak:layout_width="match_parent"
+                deepak:layout_height="match_parent"
+                deepak:layout_marginLeft="10dp"
+                deepak:layout_below="@id/lay1">
+                <TextView
+                    deepak:layout_width="match_parent"
+                    deepak:layout_height="wrap_content"
+                    deepak:text="Enter Source Name :"
+                    deepak:textSize="30sp"
+                    deepak:layout_marginTop="20dp"
+                    deepak:id="@+id/source"/>
+                <EditText
+                    deepak:layout_width="match_parent"
+                    deepak:layout_height="wrap_content"
+                    deepak:layout_below="@+id/source"
+                    deepak:hint="Input Source"
+                    deepak:id="@+id/input_source_take_ride"
+                    deepak:inputType="text"/>
+                <TextView
+                    deepak:layout_width="match_parent"
+                    deepak:layout_height="wrap_content"
+                    deepak:text="Enter Destination Name :"
+                    deepak:textSize="30sp"
+                    deepak:layout_marginTop="20dp"
+                    deepak:id="@+id/destination"
+                    deepak:layout_below="@+id/input_source_take_ride"/>
+                <EditText
+                    deepak:layout_width="match_parent"
+                    deepak:layout_height="wrap_content"
+                    deepak:layout_below="@+id/destination"
+                    deepak:hint="Input Destination"
+                    deepak:id="@+id/input_destination_take_ride"
+                    deepak:inputType="text"/>
+                <TextView
+                    deepak:layout_width="match_parent"
+                    deepak:layout_height="wrap_content"
+                    deepak:text="Enter Departure Date :"
+                    deepak:textSize="30sp"
+                    deepak:layout_marginTop="20dp"
+                    deepak:id="@+id/departure_date"
+                    deepak:layout_below="@+id/input_destination_take_ride"/>
+                <TextView
+                    deepak:layout_width="match_parent"
+                    deepak:layout_height="35dp"
+                    deepak:layout_below="@+id/departure_date"
+                    deepak:id="@+id/input_dept_date_take_ride"
+                    deepak:hint="Input Dept Date"
+                    deepak:textSize="15dp"
+                    />
+                <Button
+                    deepak:layout_width="wrap_content"
+                    deepak:layout_height="wrap_content"
+                    deepak:layout_below="@id/input_dept_date_take_ride"
+                    deepak:text="search"
+                    deepak:textSize="20sp"
+                    deepak:background="#9d0328f5"
+                    deepak:textColor="#fff"
+                    deepak:id="@+id/submit_take_ride"
+                    deepak:layout_marginTop="15dp"
+                    deepak:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

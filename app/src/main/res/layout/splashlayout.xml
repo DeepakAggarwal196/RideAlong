@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:deepak="http://schemas.android.com/apk/res/android"
+    deepak:orientation="vertical" deepak:layout_width="match_parent"
+    deepak:layout_height="match_parent">
+<ImageView
+    deepak:layout_width="match_parent"
+    deepak:layout_height="match_parent"
+    deepak:src="@drawable/splll"/>
+</LinearLayout>

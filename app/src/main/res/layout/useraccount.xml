@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:deepak="http://schemas.android.com/apk/res/android"
+    deepak:layout_width="match_parent"
+    deepak:layout_height="match_parent"
+    deepak:background="#ffffff"
+    deepak:id="@+id/mainlay">
+            <RelativeLayout
+                deepak:layout_width="match_parent"
+                deepak:layout_height="match_parent">
+                <ListView
+                    deepak:layout_width="match_parent"
+                    deepak:layout_height="wrap_content"
+                    deepak:id="@+id/l_list_1"/>
+                <Button
+                    deepak:layout_width="wrap_content"
+                    deepak:layout_height="wrap_content"
+                    deepak:id="@+id/logout"
+                    deepak:text="LOGOUT"
+                    deepak:layout_marginTop="30dp"
+                    deepak:layout_below="@+id/l_list_1"
+                    deepak:layout_centerHorizontal="true"
+                    deepak:background="#9d0328f5"/>
+            </RelativeLayout>
+        </RelativeLayout>

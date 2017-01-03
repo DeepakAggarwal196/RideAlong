@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:deepak="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    deepak:layout_width="match_parent"
+    deepak:layout_height="match_parent"
+    tools:context=".MapActivity" >
+    <RelativeLayout
+        deepak:layout_width="match_parent"
+        deepak:layout_height="wrap_content"
+        deepak:id="@+id/lay1">
+        <android.support.v7.widget.Toolbar
+            deepak:layout_width="match_parent"
+            deepak:layout_height="70dp"
+            deepak:background="#5E5FFF"
+            deepak:id="@+id/tool">
+            <!-- #9d0328f5 or #376cdf FF8C00   #7575fb 6776FF-->
+            <ImageView
+                deepak:layout_width="wrap_content"
+                deepak:layout_height="wrap_content"
+                deepak:src="@drawable/iconheaders"
+                deepak:id="@+id/img"
+                deepak:layout_marginTop="2dp"
+                deepak:layout_marginBottom="2dp"
+                />
+        </android.support.v7.widget.Toolbar>
+        <TextView
+            deepak:layout_width="wrap_content"
+            deepak:layout_height="wrap_content"
+            deepak:text="@string/header"
+            deepak:textSize="30sp"
+            deepak:textColor="#fff"
+            deepak:layout_centerVertical="true"
+            deepak:layout_alignParentRight="true"
+            deepak:layout_marginRight="20dp"
+            deepak:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        deepak:layout_width="match_parent"
+        deepak:layout_height="fill_parent"
+        deepak:layout_below="@+id/lay1"
+        deepak:background="#5e0328f5">
+        <Spinner
+            deepak:id="@+id/spr_place_type"
+            deepak:layout_width="wrap_content"
+            deepak:layout_height="60dp"
+            deepak:layout_alignParentTop="true"
+            />
+        <Button
+            deepak:id="@+id/btn_find"
+            deepak:layout_width="wrap_content"
+            deepak:layout_height="60dp"
+            deepak:layout_alignParentTop="true"
+            deepak:layout_toRightOf="@id/spr_place_type"
+            deepak:text="Locate"
+            deepak:background="#9d0328f5"
+            deepak:textColor="#fff"/>
+        <fragment
+            deepak:id="@+id/maps"
+            deepak:layout_width="wrap_content"
+            deepak:layout_height="wrap_content"
+            deepak:layout_below="@id/spr_place_type"
+            class="com.google.android.gms.maps.SupportMapFragment" />
+    </RelativeLayout>
+</RelativeLayout>

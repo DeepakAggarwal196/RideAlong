@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:deepak="http://schemas.android.com/apk/res/android"
+    deepak:layout_width="match_parent"
+    deepak:layout_height="match_parent"
+    >
+    <RelativeLayout
+        deepak:layout_width="match_parent"
+        deepak:layout_height="wrap_content"
+        deepak:id="@+id/lay1">
+        <android.support.v7.widget.Toolbar
+            deepak:layout_width="match_parent"
+            deepak:layout_height="70dp"
+            deepak:background="#5E5FFF"
+            deepak:id="@+id/tool">
+            <!-- #9d0328f5 or #376cdf FF8C00   #7575fb 6776FF-->
+            <ImageView
+                deepak:layout_width="wrap_content"
+                deepak:layout_height="wrap_content"
+                deepak:src="@drawable/iconheaders"
+                deepak:id="@+id/img"
+                deepak:layout_marginTop="2dp"
+                deepak:layout_marginBottom="2dp"
+                />
+        </android.support.v7.widget.Toolbar>
+        <TextView
+            deepak:layout_width="wrap_content"
+            deepak:layout_height="wrap_content"
+            deepak:text="@string/header"
+            deepak:textSize="30sp"
+            deepak:textColor="#fff"
+            deepak:layout_centerVertical="true"
+            deepak:layout_alignParentRight="true"
+            deepak:layout_marginRight="20dp"
+            deepak:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        deepak:layout_width="match_parent"
+        deepak:layout_height="fill_parent"
+        deepak:layout_below="@+id/lay1"
+        deepak:paddingBottom="@dimen/activity_vertical_margin"
+        deepak:paddingLeft="@dimen/activity_horizontal_margin"
+        deepak:paddingRight="@dimen/activity_horizontal_margin"
+        deepak:paddingTop="@dimen/activity_vertical_margin">
+    <ListView
+        deepak:layout_width="match_parent"
+        deepak:layout_height="match_parent"
+        deepak:id="@+id/list_loc_det"
+        />
+    </RelativeLayout>
+</RelativeLayout>

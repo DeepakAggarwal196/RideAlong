@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:deepak="http://schemas.android.com/apk/res/android"
+    deepak:layout_width="match_parent"
+    deepak:layout_height="match_parent"
+    deepak:background="#FFffff"
+    deepak:id="@+id/mainlay">
+    <ScrollView
+        deepak:layout_width="match_parent"
+        deepak:layout_height="match_parent">
+                <GridLayout
+                    deepak:layout_width="match_parent"
+                    deepak:layout_height="match_parent"
+                    deepak:id="@+id/mainbody"
+                    deepak:columnCount="1"
+                    >
+                    <Button
+                        deepak:layout_width="match_parent"
+                        deepak:layout_height="wrap_content"
+                        deepak:text="GIVE RIDE"
+                        deepak:padding="30sp"
+                        deepak:background="@drawable/shape"
+                        deepak:id="@+id/button1"
+                        deepak:textColor="#fff"
+                        deepak:textSize="30sp"
+                        deepak:layout_margin="20dp"/>
+
+                    <Button
+                        deepak:layout_width="match_parent"
+                        deepak:layout_height="wrap_content"
+                        deepak:text="TAKE RIDE"
+                        deepak:padding="30sp"
+                        deepak:textSize="30sp"
+                        deepak:layout_below="@id/button1"
+                        deepak:textColor="#fff"
+                        deepak:background="@drawable/shape"
+                        deepak:layout_margin="20dp"
+                        deepak:id="@+id/button2" />
+
+                    <Button
+                        deepak:layout_width="match_parent"
+                        deepak:layout_height="wrap_content"
+                        deepak:text="FIND PETROLEUM"
+                        deepak:textSize="30sp"
+                        deepak:padding="30sp"
+                        deepak:textColor="#fff"
+                        deepak:layout_below="@id/button2"
+                        deepak:layout_margin="20dp"
+                        deepak:id="@+id/button3"
+                        deepak:background="@drawable/shape" />
+                        <Button
+                            deepak:layout_width="match_parent"
+                            deepak:layout_height="wrap_content"
+                            deepak:text="FIND GARAGE"
+                            deepak:padding="30sp"
+                            deepak:textSize="30sp"
+                            deepak:textColor="#fff"
+                            deepak:layout_margin="20dp"
+                            deepak:background="@drawable/shape"
+                            deepak:id="@+id/button4" />
+                </GridLayout>
+    </ScrollView>
+</RelativeLayout>

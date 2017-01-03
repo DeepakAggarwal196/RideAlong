@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:deepak="http://schemas.android.com/apk/res/android"
+deepak:layout_width="match_parent"
+deepak:layout_height="match_parent"
+deepak:background="#ffffff"
+deepak:id="@+id/mainlay">
+    <ScrollView
+        deepak:layout_width="match_parent"
+        deepak:layout_height="match_parent">
+            <RelativeLayout
+                deepak:layout_width="match_parent"
+                deepak:layout_height="match_parent"
+                deepak:layout_marginLeft="10dp">
+                <TextView
+                    deepak:layout_width="match_parent"
+                    deepak:layout_height="wrap_content"
+                    deepak:layout_marginTop="20dp"
+                    deepak:textAllCaps="true"
+                    deepak:textSize="25dp"
+                    deepak:id="@+id/txt1"
+                    deepak:text="how it works ?"
+                    deepak:padding="15dp"/>
+                <TextView
+                    deepak:layout_width="match_parent"
+                    deepak:layout_height="wrap_content"
+                    deepak:layout_below="@id/txt1"
+                    deepak:padding="15dp"
+                    deepak:id="@+id/txt11"
+                    deepak:layout_marginTop="5dp"
+                    deepak:text="This App Contains Following Features :\n"/>
+                <TextView
+                    deepak:layout_width="match_parent"
+                    deepak:layout_height="wrap_content"
+                    deepak:layout_below="@id/txt11"
+                    deepak:background="@drawable/shape"
+                    deepak:id="@+id/txt2"
+                    deepak:padding="15dp"
+                    deepak:layout_marginTop="5dp"
+                    deepak:layout_marginRight="10dp"
+                    deepak:text="1) Share Ride :\nUsers can Share Ride and thus expenses while Travelling By Getting or Taking Ride. User can enter their Source and Destination and Departure Date in Respective Option based on whether they are interested in Taking or Giving Ride.Those who want to Take ride will be shown Result of Those who are willing to give Ride. then, Users can contact with the ones in Result to share Ride."/>
+                <TextView
+                    deepak:layout_width="match_parent"
+                    deepak:layout_height="wrap_content"
+                    deepak:layout_marginRight="10dp"
+                    deepak:background="@drawable/shape"
+                    deepak:layout_below="@id/txt2"
+                    deepak:padding="15dp"
+                    deepak:id="@+id/txt3"
+                    deepak:layout_marginTop="20dp"
+                    deepak:text="2)Find Petrol Pump and Find Garage\nImagine you are Riding in remote city and it's Night. suddenly, your Diesel mark show empty. there's no one outside from whom you can take help. well even imagination makes us Worried. well no more worries now as in this feature you can search for near Petrol Pumps and Garages and easily track them with in built Navigation.just click on Find Petrol Pump or Garage and leave everything on US."/>
+            </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

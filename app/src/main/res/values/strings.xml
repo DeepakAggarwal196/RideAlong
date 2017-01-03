@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Ride Along</string>
+    <string-array name="navigation_list">
+        <item>HOME</item>
+        <item>GIVE RIDE</item>
+        <item>TAKE RIDE</item>
+        <item>FIND PETROL PUMP</item>
+        <item>FIND GARAGE</item>
+        <item>ABOUT US</item>
+        <item>HELP</item>
+    </string-array>
+    <string-array name="entry">
+        <item>1) SHARE RIDE</item>
+        <item>2) FIND PETROL PUMP OR GARAGE</item>
+    </string-array>
+    <string name="header">RIDE ALONG</string>
+    <string-array name="place_type">
+        <item>car_repair</item>
+        <item>car_wash</item>
+        <item>gas_station</item>
+        <item>car_rental</item>
+    </string-array>
+
+    <string-array name="place_type_name">
+        <item>Car Repair</item>
+        <item>Car Wash</item>
+        <item>Petrol Pump</item>
+        <item>Car Rental</item>
+    </string-array>
+    <string name="action_settings">Settings</string>
+
+</resources>

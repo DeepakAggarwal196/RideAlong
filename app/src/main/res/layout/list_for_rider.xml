@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:deepak="http://schemas.android.com/apk/res/android"
+    deepak:layout_width="match_parent" deepak:layout_height="match_parent">
+<RelativeLayout
+    deepak:layout_width="match_parent"
+    deepak:layout_height="wrap_content"
+    deepak:id="@+id/lay1">
+    <TextView
+        deepak:layout_width="130dp"
+        deepak:layout_height="wrap_content"
+        deepak:textAppearance="?android:attr/textAppearanceLarge"
+        deepak:text="Medium Text"
+        deepak:id="@+id/name"
+        deepak:layout_marginTop="10dp"
+        deepak:layout_alignParentTop="true"
+        deepak:layout_alignParentLeft="true"
+        deepak:layout_alignParentStart="true" />
+    <TextView
+        deepak:layout_width="fill_parent"
+        deepak:layout_height="wrap_content"
+        deepak:textAppearance="?android:attr/textAppearanceLarge"
+        deepak:text="Medium Text"
+        deepak:layout_marginTop="10dp"
+        deepak:paddingLeft="30dp"
+        deepak:textStyle="italic"
+        deepak:layout_toRightOf="@+id/name"
+        deepak:id="@+id/name_value"/>
+</RelativeLayout>
+    <RelativeLayout
+        deepak:layout_width="match_parent"
+        deepak:layout_height="wrap_content"
+        deepak:layout_below="@+id/lay1"
+        deepak:id="@+id/lay2">
+    <TextView
+        deepak:layout_width="130dp"
+        deepak:layout_height="wrap_content"
+        deepak:textAppearance="?android:attr/textAppearanceLarge"
+        deepak:text="Medium Text"
+        deepak:layout_marginTop="10dp"
+        deepak:id="@+id/contact"
+        deepak:layout_alignParentLeft="true"/>
+    <TextView
+        deepak:layout_width="fill_parent"
+        deepak:layout_height="wrap_content"
+        deepak:textAppearance="?android:attr/textAppearanceLarge"
+        deepak:text="Medium Text"
+        deepak:layout_marginTop="10dp"
+        deepak:paddingLeft="30dp"
+        deepak:textStyle="italic"
+        deepak:autoLink="phone"
+        deepak:linksClickable="true"
+        deepak:layout_toRightOf="@+id/contact"
+        deepak:id="@+id/contact_value"/>
+    </RelativeLayout>
+    <RelativeLayout
+        deepak:layout_width="match_parent"
+        deepak:layout_height="wrap_content"
+        deepak:layout_below="@+id/lay2"
+        deepak:id="@+id/lay3"
+        >
+    <TextView
+        deepak:layout_width="130dp"
+        deepak:layout_height="wrap_content"
+        deepak:textAppearance="?android:attr/textAppearanceLarge"
+        deepak:text="Medium Text"
+        deepak:layout_marginTop="10dp"
+        deepak:id="@+id/dept_time"
+        deepak:layout_alignParentLeft="true"/>
+    <TextView
+        deepak:layout_width="fill_parent"
+        deepak:layout_height="wrap_content"
+        deepak:textAppearance="?android:attr/textAppearanceLarge"
+        deepak:text="Medium Text"
+        deepak:paddingLeft="30dp"
+        deepak:layout_marginTop="10dp"
+        deepak:textStyle="italic"
+        deepak:layout_toRightOf="@+id/dept_time"
+        deepak:id="@+id/dept_time_value"/>
+    </RelativeLayout>
+    <RelativeLayout
+        deepak:layout_width="match_parent"
+        deepak:layout_height="wrap_content"
+        deepak:layout_below="@+id/lay3"
+        deepak:id="@+id/lay4">
+    <TextView
+        deepak:layout_width="130dp"
+        deepak:layout_height="wrap_content"
+        deepak:textAppearance="?android:attr/textAppearanceLarge"
+        deepak:text="Medium Text"
+        deepak:layout_marginTop="10dp"
+        deepak:id="@+id/car"
+        deepak:layout_alignParentLeft="true"/>
+    <TextView
+        deepak:layout_width="fill_parent"
+        deepak:layout_height="wrap_content"
+        deepak:textAppearance="?android:attr/textAppearanceLarge"
+        deepak:text="Medium Text"
+        deepak:paddingLeft="30dp"
+        deepak:layout_marginTop="10dp"
+        deepak:textStyle="italic"
+        deepak:layout_toRightOf="@+id/car"
+        deepak:id="@+id/car_value"/>
+    </RelativeLayout>
+    <RelativeLayout
+        deepak:layout_width="match_parent"
+        deepak:layout_height="wrap_content"
+        deepak:layout_below="@+id/lay4"
+        deepak:id="@+id/lay5">
+    <TextView
+        deepak:layout_width="130dp"
+        deepak:layout_height="wrap_content"
+        deepak:textAppearance="?android:attr/textAppearanceLarge"
+        deepak:text="Medium Text"
+        deepak:layout_marginTop="10dp"
+        deepak:id="@+id/seats"
+        deepak:layout_alignParentLeft="true"/>
+    <TextView
+        deepak:layout_width="fill_parent"
+        deepak:layout_height="wrap_content"
+        deepak:textAppearance="?android:attr/textAppearanceLarge"
+        deepak:text="Medium Text"
+        deepak:layout_marginTop="10dp"
+        deepak:textStyle="italic"
+        deepak:paddingLeft="30dp"
+        deepak:layout_toRightOf="@+id/seats"
+        deepak:id="@+id/seats_value" />
+    </RelativeLayout>
+    <Button
+        deepak:layout_width="match_parent"
+        deepak:layout_height="wrap_content"
+        deepak:layout_below="@+id/lay5"
+        deepak:background="@drawable/line_second"/>
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:deepak="http://schemas.android.com/apk/res/android"
+deepak:layout_width="match_parent"
+deepak:layout_height="match_parent"
+deepak:background="#ffffff"
+deepak:id="@+id/mainlay">
+        <ImageView
+            deepak:layout_width="wrap_content"
+            deepak:layout_height="wrap_content"
+            deepak:id="@+id/imageView"
+            deepak:src="@drawable/icons"
+            deepak:layout_alignParentTop="true"
+            deepak:layout_centerHorizontal="true"
+            deepak:layout_marginTop="51dp" />
+        <TextView
+            deepak:layout_width="wrap_content"
+            deepak:layout_height="wrap_content"
+            deepak:textAppearance="?android:attr/textAppearanceLarge"
+            deepak:text="Ride Along"
+            deepak:id="@+id/textView2"
+            deepak:layout_below="@+id/imageView"
+            deepak:layout_centerHorizontal="true" />
+        <TextView
+            deepak:layout_width="wrap_content"
+            deepak:layout_height="wrap_content"
+            deepak:textAppearance="?android:attr/textAppearanceMedium"
+            deepak:text="V 1.0.1"
+            deepak:id="@+id/textView3"
+            deepak:layout_below="@+id/textView2"
+            deepak:layout_centerHorizontal="true" />
+        <DigitalClock
+            deepak:layout_width="wrap_content"
+            deepak:layout_height="wrap_content"
+            deepak:id="@+id/digitalClock"
+            deepak:layout_alignParentBottom="true"
+            deepak:layout_alignParentRight="true"
+            deepak:layout_alignParentEnd="true"
+            deepak:layout_marginBottom="77dp" />
+        <TextView
+            deepak:layout_width="wrap_content"
+            deepak:layout_height="wrap_content"
+            deepak:textAppearance="?android:attr/textAppearanceLarge"
+            deepak:text="Feedback : deepak96garg@gmail.com"
+            deepak:layout_marginLeft="30dp"
+            deepak:layout_marginBottom="60dp"
+            deepak:id="@+id/textView4"
+            deepak:layout_above="@+id/digitalClock"
+            deepak:layout_alignParentLeft="true"
+            deepak:layout_alignParentStart="true" />
+</RelativeLayout>

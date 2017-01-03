@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:deepak="http://schemas.android.com/apk/res/android"
+    deepak:layout_width="match_parent"
+    deepak:layout_height="match_parent"
+    deepak:background="#ffffff"
+    deepak:id="@+id/mainlay">
+    <ScrollView
+        deepak:layout_width="match_parent"
+        deepak:layout_height="match_parent">
+    <RelativeLayout
+        deepak:layout_width="match_parent"
+        deepak:layout_height="match_parent"
+        deepak:layout_below="@+id/lay1"
+        deepak:layout_marginLeft="10dp">
+        <TextView
+            deepak:layout_width="match_parent"
+            deepak:layout_height="wrap_content"
+            deepak:text="LOGIN"
+            deepak:textSize="50sp"
+            deepak:id="@+id/textView" />
+
+        <EditText
+            deepak:layout_width="match_parent"
+            deepak:layout_height="wrap_content"
+            deepak:inputType="textEmailAddress"
+            deepak:id="@+id/enterMail"
+            deepak:hint="EMAIL ID"
+            deepak:layout_below="@+id/textView"
+            deepak:layout_alignParentLeft="true"
+            deepak:layout_alignParentStart="true" />
+
+        <EditText
+            deepak:layout_width="match_parent"
+            deepak:layout_height="wrap_content"
+            deepak:inputType="textPassword"
+            deepak:hint="PASSWORD"
+            deepak:id="@+id/enterPassword"
+            deepak:layout_below="@+id/enterMail"
+            deepak:layout_alignParentLeft="true"
+            deepak:layout_alignParentStart="true" />
+        <Button
+            deepak:layout_width="wrap_content"
+            deepak:layout_height="wrap_content"
+            deepak:layout_below="@+id/enterPassword"
+            deepak:id="@+id/login"
+            deepak:textSize="20sp"
+            deepak:text="LOGIN"
+            deepak:paddingLeft="20dp"
+            deepak:paddingRight="20dp"
+            deepak:layout_centerHorizontal="true"
+            deepak:background="#9d0328f5"
+            deepak:textColor="#fff"
+            deepak:layout_marginTop="15dp"
+            />
+<Button
+    deepak:layout_width="match_parent"
+    deepak:layout_height="wrap_content"
+    deepak:background="@drawable/line"
+    deepak:layout_below="@+id/login"
+    deepak:id="@+id/line"/>
+        <TextView
+            deepak:layout_width="wrap_content"
+            deepak:layout_height="wrap_content"
+            deepak:text="OR"
+            deepak:layout_below="@+id/line"
+            deepak:textSize="30dp"
+            deepak:layout_centerHorizontal="true"
+            deepak:id="@+id/or"/>
+        <Button
+            deepak:layout_width="wrap_content"
+            deepak:layout_height="wrap_content"
+            deepak:layout_below="@+id/or"
+            deepak:id="@+id/signup"
+            deepak:textSize="20sp"
+            deepak:text="SIGN UP"
+            deepak:paddingLeft="20dp"
+            deepak:paddingRight="20dp"
+            deepak:layout_centerHorizontal="true"
+            deepak:background="#9d0328f5"
+            deepak:textColor="#fff"
+            deepak:layout_marginTop="15dp"
+            />
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

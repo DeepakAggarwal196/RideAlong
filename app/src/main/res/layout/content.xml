@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:deepak="http://schemas.android.com/apk/res/android"
+    deepak:layout_width="match_parent"
+    deepak:layout_height="match_parent"
+    deepak:background="#ffffff"
+    deepak:id="@+id/mainlay">
+    <RelativeLayout
+        deepak:layout_width="match_parent"
+        deepak:layout_height="wrap_content"
+        deepak:id="@+id/lay1">
+        <android.support.v7.widget.Toolbar
+            deepak:layout_width="match_parent"
+            deepak:layout_height="70dp"
+            deepak:background="#5E5FFF"
+            deepak:id="@+id/tool">
+            <!-- #9d0328f5 or #376cdf FF8C00   #7575fb 6776FF-->
+            <ImageView
+                deepak:layout_width="wrap_content"
+                deepak:layout_height="wrap_content"
+                deepak:src="@drawable/iconheaders"
+                deepak:id="@+id/img"
+                deepak:layout_marginTop="2dp"
+                deepak:layout_marginBottom="2dp"
+                />
+        </android.support.v7.widget.Toolbar>
+        <TextView
+            deepak:layout_width="wrap_content"
+            deepak:layout_height="wrap_content"
+            deepak:text="@string/header"
+            deepak:textSize="30sp"
+            deepak:textColor="#fff"
+            deepak:layout_centerVertical="true"
+            deepak:layout_alignParentRight="true"
+            deepak:layout_marginRight="20dp"
+            deepak:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <!-- header ends here-->
+    <!-- navigation starts here-->
+    <android.support.v4.widget.DrawerLayout
+        deepak:layout_width="match_parent"
+        deepak:layout_height="fill_parent"
+        deepak:layout_below="@+id/lay1"
+        deepak:id="@+id/drawf">
+        <FrameLayout
+            deepak:layout_width="match_parent"
+            deepak:layout_height="match_parent"
+            deepak:id="@+id/frame">
+        </FrameLayout>
+
+        <ListView
+            deepak:layout_width="200dp"
+            deepak:layout_height="match_parent"
+            deepak:layout_gravity="start"
+            deepak:divider="#000"
+            deepak:id="@+id/nav_list"
+            deepak:dividerHeight="1dp"
+            deepak:background="#7575fb"
+            deepak:listSelector="#6c0328f5">
+        </ListView>
+    </android.support.v4.widget.DrawerLayout>
+    <!-- navigation drawer ends here-->
+</RelativeLayout>

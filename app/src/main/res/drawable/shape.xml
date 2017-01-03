@@ -1,0 +1,20 @@
+<shape
+    deepak:shape="rectangle"
+    xmlns:deepak="http://schemas.android.com/apk/res/android" >
+<stroke
+    deepak:color="#5E5FFF"
+    deepak:width="1dp"
+    >
+</stroke>
+    <gradient
+        deepak:centerColor="#5E5FFF"
+        deepak:gradientRadius="80dp"
+        deepak:startColor="#4243ff"
+        deepak:type="sweep"
+        deepak:useLevel="false"
+        deepak:endColor="#5E5FFF">
+    </gradient>
+    <corners
+        deepak:radius="20dp"
+        />
+</shape>

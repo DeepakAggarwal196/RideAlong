@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:deepak="http://schemas.android.com/apk/res/android"
+    deepak:layout_width="match_parent"
+    deepak:layout_height="match_parent"
+    deepak:layout_marginLeft="15dp"
+    deepak:orientation="vertical">
+        <ListView
+            deepak:layout_width="match_parent"
+            deepak:layout_height="wrap_content"
+            deepak:layout_weight="1"
+            deepak:id="@+id/list_for_share">
+        </ListView>
+</LinearLayout>
